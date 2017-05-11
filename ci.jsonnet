@@ -18,7 +18,7 @@ local Build = {
 {
   builds :  [
     Build + {
-      run: [["echo test2"]],
+      run: [["echo", "test2"]],
       capabilities : ["linux", "amd64", "gate"],
       name: "gate-test-jdk8-linux",
       timelimit: "0:10"
