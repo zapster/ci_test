@@ -1,0 +1,7 @@
+
+builds = [
+  {run: [[echo test]],
+   capabilities : [linux, amd64, gate]
+   name: "gate-test-jdk8-linux2"
+  }
+]
